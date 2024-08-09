@@ -1,4 +1,4 @@
-const { concat, addition } = require('./program1');
+const { concat, addition } = require('../program1');
 
 describe('concat', () => {
     it('should concatenate id and name into id_name', () => {

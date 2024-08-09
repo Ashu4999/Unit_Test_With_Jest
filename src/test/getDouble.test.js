@@ -1,4 +1,4 @@
-const { getDouble } = require('./getDouble');
+const { getDouble } = require('../getDouble');
 
 test('getDouble should return double the input number', () => {
   expect(getDouble(2)).toBe(4);

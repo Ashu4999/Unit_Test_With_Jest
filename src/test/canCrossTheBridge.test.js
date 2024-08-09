@@ -1,6 +1,5 @@
+const { canCrossTheBridge } = require('../canCrossTheBridge.js');
 describe('canCrossTheBridge', () => {
-    const { canCrossTheBridge } = require('/C:/Users/IncubXperts/Desktop/Learning/Github Copilot Testing/Auto Test Case Understanding/canCrossTheBridge.js');
-
     test('should return true when truck weight is less than max weight', () => {
         expect(canCrossTheBridge(10000, 8000)).toBe(true);
     });

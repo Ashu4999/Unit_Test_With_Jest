@@ -1,4 +1,4 @@
-const { fizzBuzz } = require('./fizzbuzz');
+const { fizzBuzz } = require('../fizzbuzz');
 
 test('returns "FizzBuzz" for numbers divisible by both 3 and 5', () => {
     expect(fizzBuzz(15)).toBe('FizzBuzz');

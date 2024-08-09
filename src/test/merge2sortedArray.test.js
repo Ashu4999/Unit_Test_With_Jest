@@ -1,4 +1,4 @@
-const { mergeSortedArrays } = require('./merge2sortedArray');
+const { mergeSortedArrays } = require('../merge2sortedArray');
 
 test('merges two sorted arrays of equal length', () => {
     const arr1 = [1, 3, 5];

@@ -1,4 +1,4 @@
-const { findElement } = require('./program2');
+const { findElement } = require('../program2');
 
 describe('findElement', () => {
     it('should return the index of the key in the array', () => {

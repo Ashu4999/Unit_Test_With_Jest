@@ -1,4 +1,4 @@
-const { calculate } = require('./main');
+const { calculate } = require('../romanToNumberConvertor/main');
 
 describe('calculate', () => {
     it('should convert Roman numeral I to 1', () => {

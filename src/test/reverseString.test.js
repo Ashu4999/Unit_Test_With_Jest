@@ -1,4 +1,4 @@
-const { reverseString } = require('./reverseString');
+const { reverseString } = require('../reverseString');
 
 describe('reverseString - additional tests', () => {
     // it('should return null when input is null', () => {
